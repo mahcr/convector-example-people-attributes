@@ -1,8 +1,8 @@
 # attributesDb - person
 
-> This project is the result of this tutorial: https://docs.worldsibu.com/article/89-tutorial
+This is a fork of [convector-example-people-attributes](https://github.com/worldsibu/convector-example-people-attributes)
 
-## Run this project
+The original example uses ExpressJS to serve endpoints to communicate with Convector. This repo has all the changes ready to use NestJS.
 
 ```bash
 # Start your blockchain network and install the smart contract
@@ -13,18 +13,10 @@ npm start
 npm run seed
 
 # Run the API
-npx lerna run start --scope server --stream
+npx lerna run start:dev --scope server --stream
 ```
 
-## Tests
 
-```bash
-npm test
-```
 
-> Check all the information to work with Convector <a href="https://worldsibu.github.io/convector" target="_blank">in the DOCS site</a>.
 
-## Collaborate to the Convector Suite projects
-
-* <a href="https://discord.gg/twRwpWt" target="_blank">Discord chat with the community</a>
-* <a href="https://github.com/worldsibu" target="_blank">Convector projects</a>
+> This project is the result of this tutorial: https://docs.worldsibu.com/article/89-tutorial
